@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" type="text/css" href="VBstyle.css">
+</head>
+<body>
+
+
+    <div  class="overlay" id="overl" onclick="op()">
+   	<div id="certificate" ><img src="matriculation.jpg"></div>
+   </div>
+   <div  class="overlay" id="overla" onclick="opp()">
+   	<div id="certificate" ><img src="intermediate.jpg"></div>
+   </div>
+    <div  class="overlay" id="overlay" onclick="of()">
+   	<div id="certificate" ><img src="ML.png"></div>
+   </div>
+   <div  class="overlay" id="overlayy" onclick="off()">
+   	<div id="certificate" ><img src="app.jpg"></div>
+   </div>
+   <div  class="overlay" id="overlayyy" onclick="offf()">
+   	<div id="certificate" ><img src="imo1.jpg"></div>
+   </div>
+   <div  class="overlay" id="overlayyyy" onclick="offff()">
+   	<div id="certificate" ><img src="imo2.jpg"></div>
+   </div>
+
+
+
+
+
+
+
+<div class="container">
+	<div class="left_side">
+		<div class="profile">
+		<div class="imgbox"><img src="profile.jpg"></div>
+		<h2>Vaibhav K. Bhardwaj<br><span><h3>UI/UX DEVELOPER</h3></span> </h2>
+		</div>
+		<div class="contact">
+		<h3 class="title">Contact Info</h3>
+		<ul><li>
+			<span class="icon"><i class="fa fa-phone-square" aria-hidden="true"></i></span>
+			<span class="num">9430779277</span>
+		</li>
+		<li>
+			<span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+			<span class="num">vb12082003@gmail.com</span>
+		</li>
+		<li>
+			<span class="icon"><i class="fa fa-globe" aria-hidden="true"></i></span>
+			<span class="num">www.iloveyou.com</span>
+		</li>
+		<li>
+			<span class="icon"><i class="fa fa-home" aria-hidden="true"></i></span>
+			<span class="num">Ranchi,Jharkhand 835217</span>
+		</li>
+			
+		</ul>
+	</div>
+	<div class="contactedu">
+		<h3 class="title">Education</h3>
+		<ul>
+			<li>
+			<h3><span class="icon"><i class="fa fa-graduation-cap" aria-hidden="true"></i></span>
+			<span>2021 - 2025</h3></span>
+			<h4>B.Tech from IT Branch</h4>
+			<h4><span>University Name:
+			KIIT</span></h4>
+		</li>
+		<li>
+			<h3><span class="icon"><i class="fa fa-book" aria-hidden="true"></i></span>
+			<span>2019 - 2021</h3></span>
+			<h4>Intermediate</h4>
+			<h4>School: St. Paul School </h4>
+		</li>
+		<li>
+			<h3><span class="icon"><i class="fa fa-book" aria-hidden="true"></i></span>
+			<span>2006 - 2019</span></h3>
+			<h4>Matriculation</h4>
+			<h4>School: Manan Vidya </h4>
+		</li>
+		</ul>
+	</div>
+
+	<div class="contactlang">
+		<h3 class="title">Language</h3>
+		<ul>
+			<li><span class="text">English</span>
+				<span class="prcnt"><div style="width: 90%;"></div></span>
+			</li>
+			<li><span class="text"> Hindi</span>
+                <span class="prcnt">
+                	<div style="width: 98%;"></div>
+                </span>
+			</li>
+		</ul>
+	</div>
+
+     <div class="contactlang">
+		<h3 class="title">Social Media</h3>
+		<ul>
+			<li><span><i class="fa fa-instagram" aria-hidden="true"></i></span> 
+				<span class="text"><a href="https://www.instagram.com/vb538995/">Instagram</a></span>
+			</li>
+			<li><span><i class="fa fa-linkedin-square" aria-hidden="true"></i></span>
+				<span class="text"><a href="https://www.linkedin.com/in/vaibhav-bhardwaj-60550a238/">Linkedin</a></span>
+                
+			</li>
+		</ul>
+	</div>
+
+
+
+
+	</div>
+
+
+
+	<div class="right_side">
+		<div class="about">
+	<h2 class="title2">Profile</h2>
+    <p>Pursuing B.tech degree(INFORMATION TECHNOLOGY) form KALINGA INSTITUTE OF INDUSTRIAL TECHNOLOGY.</p>
+    <p>Intermediate from St. Paul School , Sasaram Bihar, affiliated to CBSE in Passing Year (2021) with an aggregate <b>90.8%</b>.</p>
+    <p>Matriculation from Manan Vidya Manrakhan Mahto School, Booty More Ranchi, affiliated to CBSE in Passing Year (2019) with an aggregate <b>95.2%</b>.</p>
+	</div>
+    <h2 class="title2">Personal Profile</h2>
+    <div><pre class="pre">Date OF Birth : 12 - AUG - 2003
+Caste : General
+Hieght : 176.94cm
+Religion : Hindu
+Father's Name : Pramod Kumar Pandey
+Mother's Name : Sangita Pandey
+Interest : Poetry writing, Story Writing , Literature</pre></div>
+<h2 class="">PROFESSIONAL SKILLS</h2>
+<div class="box">
+	<ul>
+		<li>C Language</li>
+		<li>C++</li>
+		<li>JAVA Basics</li>
+		<li>Static Web Developer</li>
+		<li>UI/UX Developer</li>
+
+	</ul>
+</div>
+	<h2 class="title2">Academic Projects</h2> 
+	<div class="box">
+		<ul>
+			<li>2022 - Internship project on App Development </li>
+			<li>2023 - Boot Camp conducted on UI/UX (as mentor)</li>
+			<li>2023 - Self taken project of Web Development</li>
+			<li>2023 - Currently working on research paper<i class="fa fa-cog fa-spin fa-fw"></i></li>
+		</ul>
+	</div>
+
+	<h2 class="title2">Prizes and Award</h2>
+	<div class="box">
+	<ul>
+		<li>2 year consecutively gold medallist in IMO (International Maths Olympiad).</li>
+		<li><i class="fa fa-inr fa-1x" aria-hidden="true"></i>2000 awarded for scoring more than 95% matriculation.</li>
+		<li>CERTIFICATES (Academics and Non Academics)
+			<ul>
+				<li style="cursor: pointer;" onclick="ot()">Matriculation(X<sup>th</sup>)</a></li>
+				<li style="cursor: pointer;" onclick="ott()">Intermediate(XII<sup>th</sup>) </a></li>
+				<li style="cursor: pointer;" onclick="on()">Machine Learning</a></li>
+				<li style="cursor: pointer;" onclick="onn()">App Development</a></li>
+				<li style="cursor: pointer;" onclick="onnn()">Mathematical Olympiad 1</a></li>
+				<li style="cursor: pointer;" onclick="onnnn()">Mathematical Olympiad 2</a></li>
+				<li style="cursor: pointer;" onclick="onnnnn()">Organising committee</a></li>
+				<li style="cursor: pointer;" onclick="onnnnnn()"> UI/UX</a></li>
+			</ul>
+		</li>
+	</ul>
+</div>
+	</div>
+
+	
+</div>
+
+
+
+
+<script>
+	function ot(){
+   		document.getElementById("overl").style.display="block";
+   	}
+
+   	function op() {
+   		document.getElementById("overl").style.display="none";
+   	}
+	function ott(){
+   		document.getElementById("overla").style.display="block";
+   	}
+
+   	function opp() {
+   		document.getElementById("overla").style.display="none";
+   	}
+   	function on(){
+   		document.getElementById("overlay").style.display="block";
+   	}
+
+   	function of() {
+   		document.getElementById("overlay").style.display="none";
+   	}
+   	function onn(){
+   		document.getElementById("overlayy").style.display="block";
+   	}
+
+   	function off() {
+   		document.getElementById("overlayy").style.display="none";
+   	}
+   	function onnn(){
+   		document.getElementById("overlayyy").style.display="block";
+   	}
+
+   	function offf() {
+   		document.getElementById("overlayyy").style.display="none";
+   	}
+   	function onnnn(){
+   		document.getElementById("overlayyyy").style.display="block";
+   	}
+
+   	function offff() {
+   		document.getElementById("overlayyyy").style.display="none";
+   	}
+</script>
+
+</body>
+</html>

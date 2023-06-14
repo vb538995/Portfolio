@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	ffont-family: 'Poppins', sans-serif;
+}
+
+body{
+	background: lightblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+.container{
+	position: relative;
+	width: 100%;
+	max-width: 1000px;
+	min-height: 1000px;
+	margin: 50px;
+	background: #fff;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	box-shadow: 0 35px 55px rgba(0, 0, 0, 0.3);
+}
+.container .left_side{
+	position: relative;
+	background: #003147;
+	padding: 40px;
+}
+.profile{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 20px;
+	border-bottom: 4px solid white;
+}	
+
+.profile .imgbox{
+	position: relative;
+	width:200px;
+	height: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.profile .imgbox img{ 
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+
+}
+
+.profile h2{
+	text-align: center;
+	color: white;
+	font-size: 1.5em;
+	margin-top: 20px;
+	font: 600;
+	line-height: 1.4em;
+}
+.profile h3{
+	font-size: 0.8em;
+	font-weight: 400;
+	
+}
+.contact{
+	padding-top: 40px;
+}
+.title{
+	color: white;
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+}
+.contact ul{
+	list-style: none;	
+	position: relative;
+	letter-spacing: 1px;
+	margin-bottom: 5px;
+}
+.contact ul li{
+	cursor: pointer;
+	margin: 10px;
+}
+
+.contact ul li .icon{
+	display: inline-block;
+	width: 30px;
+	font-size: 18px;
+	color: lightblue;
+}
+.contact ul li span{
+	color: white;
+	font-weight: 300;
+}
+.contactedu{
+	padding-top: 40px;
+}
+
+.contactedu ul{
+	list-style: none;
+	position: relative;
+	letter-spacing: 1px;
+	margin-bottom: 5px;
+}
+
+.contactedu ul li{
+	margin: 8px;
+}
+.contactedu ul li h4,h3{
+	color: white;
+}
+.contactedu ul li h3 span{
+	color: lightblue;
+}
+.contactedu ul li h3 span .icon{
+	color: white;
+}
+.contactlang{
+	padding-top: 40px;
+	margin: 8px;
+
+}
+
+.contactlang ul{
+	margin
+}
+.contactlang ul li{
+	color: white;
+	letter-spacing: 1px;
+	margin: 5px;
+}
+
+.contactlang .prcnt{
+	position: relative;
+	width: 100%;
+	height: 6px;
+	background: black;
+	display: block;
+	margin: 5px;
+	border-radius: 4px;
+}
+
+.contactlang .prcnt div{
+	position: relative;
+	top: 0;
+	left: 0;
+	height: 100%;
+	background: lightblue;
+	border-radius: 4px;
+
+}
+
+.container .right_side{
+	position: relative;
+	background: #fff;
+	padding: 40px;
+} 
+.about{
+	margin-bottom: 50px;
+}
+.about:last-child{
+	margin-bottom: 0px;
+}
+
+.about p{
+	margin: 5px;
+	letter-spacing: 1px;
+	font-family: calibiri;
+}
+.title2{
+	color: #003147;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+.box{
+	margin-bottom: 50px;
+}
+
+.box ul{
+	position: relative;
+	margin: 20px;
+}
+.box ul li{
+	margin-bottom: 5px;
+	letter-spacing: 1px;
+}
+
+.pre{
+	letter-spacing: 1px;
+	margin: 5px;
+	margin-bottom: 50px;
+	font-family: calibiri;
+}
+.box ul li ul{
+	margin-top: 10px;
+}
+
+
+        #overl{
+			position: fixed;
+			display: none;
+			width: 100%;
+			height: 100%;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			background-color: rgba(0, 0, 0, 0.5);
+			z-index: 2;
+			cursor: pointer;
+			overflow: scroll;
+		}
+		#overla{
+			position: fixed;
+			display: none;
+			width: 100%;
+			height: 100%;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			background-color: rgba(0, 0, 0, 0.5);
+			z-index: 2;
+			cursor: pointer;
+			overflow: scroll;
+		}
+
+
+        #overlay{
+			position: fixed;
+			display: none;
+			width: 100%;
+			height: 100%;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			background-color: rgba(0, 0, 0, 0.5);
+			z-index: 2;
+			cursor: pointer;
+		}
+
+		#overlayy{
+			position: fixed;
+			display: none;
+			width: 100%;
+			height: 100%;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			background-color: rgba(0, 0, 0, 0.5);
+			z-index: 2;
+			cursor: pointer;
+		}
+		#overlayyy{
+			position: fixed;
+			display: none;
+			width: 100%;
+			height: 100%;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			background-color: rgba(0, 0, 0, 0.5);
+			z-index: 2;
+			cursor: pointer;
+			overflow: scroll;
+		}
+		#overlayyyy{
+			position: fixed;
+			display: none;
+			width: 100%;
+			height: 100%;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			background-color: rgba(0, 0, 0, 0.5);
+			z-index: 2;
+			cursor: pointer;
+			overflow: scroll;
+		}
+
+
+		#certificate img{
+        position: relative;	
+        height: 100%;
+        width: 50%	;
+        margin-top: 5%;
+        margin-left: 25%;
+        margin-right: 25%;
+        }
